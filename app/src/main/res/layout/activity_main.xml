@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/id_btn_Gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_Gson"
+        android:text="使用Gson解析"/>
+
+    <Button
+        android:id="@+id/id_btn_Fastjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_Fastjson"
+        android:text="使用Fastjson解析"/>
+
+
+</LinearLayout>
